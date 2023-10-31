@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
@@ -30,12 +34,31 @@ li {
   color: #f9f8ff;
 }
 
-.entete,
-.pied-de-page {
+header,
+footer {
   background-color: white;
 }
 
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
+  border-radius: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
 }
